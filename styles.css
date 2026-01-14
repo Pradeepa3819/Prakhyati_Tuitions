@@ -1,0 +1,19 @@
+/* minimal theme */
+:root { --brand:#2563eb; --bg:#f8fafc; --ink:#0f172a; --muted:#475569; }
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--ink)}
+.header{background:#fff;border-bottom:1px solid #e2e8f0}
+.header-inner{max-width:1000px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:16px}
+.brand img{height:34px}
+.container{max-width:1000px;margin:0 auto;padding:24px}
+h1,h2{color:var(--brand)}
+.hero{padding:24px;background:linear-gradient(180deg,#eff6ff,#fff);border-bottom:1px solid #e2e8f0}
+.hero p{margin:8px 0}
+ul{line-height:1.8}
+.reviews{display:grid;gap:12px}
+.review{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:12px}
+.contact{display:grid;gap:8px}
+.contact a{color:var(--brand);text-decoration:none}
+.map{margin-top:12px;border:1px solid #e2e8f0;border-radius:10px;overflow:hidden}
+.footer{padding:24px;text-align:center;color:var(--muted)}
+.whatsapp-fab{position:fixed;right:16px;bottom:16px;background:#25d366;color:#fff;border-radius:999px;padding:12px 16px;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.15)}
